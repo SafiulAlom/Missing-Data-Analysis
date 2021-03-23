@@ -1,0 +1,11 @@
+"";"BD";"mice.cart";"mice.rf";"CC"
+"(Intercept)";966,194;1053,379;982,306;5436,878
+"age";0;0,001;0;0,004
+"educationprof.course";0,375;0,487;0,645;36,609
+"educationothers";0,143;0,57;0,548;1,775
+"maritalsingle";0,173;1,1;1,773;100,824
+"maritalothers";0,897;0,389;0,342;1,417
+"duration";0;0;0;0
+"campaign";0,013;0,012;0,012;0,974
+"cons.price.idx";0,109;0,119;0,11;0,62
+"cons.conf.idx";0,001;0,002;0,002;0,01
