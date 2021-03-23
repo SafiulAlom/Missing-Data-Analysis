@@ -61,7 +61,6 @@ plot(imp.rf_mice, c("age", "duration", "campaign"))
 densityplot(imp.rf_mice)
 #dev.off()
 
-
 Result_simulation = readRDS("C:\\Users\\Himel\\OneDrive\\Studium\\M.Sc. Statistics\\3_Semester\\Statistical analysis of missing data\\presentation\\object_mi.rds")
 write.csv2(Result_simulation$Bias, "Bias.csv")
 write.csv2(Result_simulation$MSE, "MSE.csv")
