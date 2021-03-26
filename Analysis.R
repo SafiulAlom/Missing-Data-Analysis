@@ -25,7 +25,8 @@ install.load.packages(packages, libraryPath)
 
 
 #load dataset
-data = read.csv("C:\\Users\\Himel\\OneDrive\\Studium\\M.Sc. Statistics\\3_Semester\\Statistical analysis of missing data\\presentation\\bank-additional\\bank-additional\\bank-additional-full.csv", sep = ";")
+data = read.csv("C:\\Users\\Himel\\OneDrive\\Studium\\M.Sc. Statistics\\3_Semester
+\\Statistical analysis of missing data\\presentation\\bank-additional\\bank-additional\\bank-additional-full.csv", sep = ";")
 #data source
 browseURL('https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#')
 
@@ -153,7 +154,8 @@ object.cart.rf = list(create_miss_mice, dat_mice, data, end_time.cart, end_time.
 names(object.cart.rf) = c("create_miss_mice", "dat_mice", "data, end_time.cart", "end_time.rf",
                           "imp.cart_mice", "imp.rf_mice", "logistic.mod", "miss.data_mice", 
                           "runtime_cart", "runtime_rf", "TrueVal")
-saveRDS(object.cart.rf, "C:\\Users\\Himel\\OneDrive\\Studium\\M.Sc. Statistics\\3_Semester\\Statistical analysis of missing data\\presentation\\object.cart.rf.rds")
+saveRDS(object.cart.rf, "C:\\Users\\Himel\\OneDrive\\Studium\\M.Sc. Statistics\\
+3_Semester\\Statistical analysis of missing data\\presentation\\object.cart.rf.rds")
 
 
 
@@ -346,10 +348,3 @@ names(all.objects) = c("BDdat", "BDmod", "Bias", "CCmod",
                        "resMI.rf", "tab","TrueVal", "RunTime_simulation")
 
 #saveRDS(all.objects, "C:\\Users\\Himel\\OneDrive\\Studium\\M.Sc. Statistics\\3_Semester\\Statistical analysis of missing data\\presentation\\object_mi.rds")
-
-
-
-
-
-
-
